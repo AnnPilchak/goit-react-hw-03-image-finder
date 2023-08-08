@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+@import-normalize;
 
 body {
   margin: 0;
@@ -12,4 +12,29 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Скидання стандартних стилів */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* Заборона підсвічування при натисканні на елемент */
+a,
+button {
+  text-decoration: none;
+  outline: none;
+}
+
+/* Заборона маркерів списків */
+ul,
+ol {
+  list-style: none;
 }
